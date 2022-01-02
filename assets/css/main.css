@@ -2427,10 +2427,18 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
+
 		ul li {
+			
 			padding-left: 0.5em;
 		}
-
+		li.inside{
+			list-style: circle;
+		}
+		ul.right{
+			/* list-style: square; */
+			text-align: left;
+		}
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
